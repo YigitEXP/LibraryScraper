@@ -39,7 +39,7 @@ async def user_interface():
     label = tk.Label(root, text="Please enter a library name:", font=("Arial", 16, "bold"), bg=BG_COLOR, fg=TEXT_COLOR)
     label.grid(row=0, column=0)
 
-    text = tk.Text(root, height=2, width=50, font=("Arial", 12), bg=TEXT_BG, fg="black", highlightbackground=BTN_COLOR)
+    text = tk.Entry(root, height=2, width=50, font=("Arial", 12), bg=TEXT_BG, fg="black", highlightbackground=BTN_COLOR)
     text.grid(row=1, column=0,padx=5)
     
     result_label = tk.Label(root, text="", font=("Arial", 12), bg=BG_COLOR, fg="black")
